@@ -1,0 +1,35 @@
+body{
+  margin :0;
+  padding: 0;
+}
+.nav{
+  background-color : yellow;
+  padding : 15px;
+  display : flex;
+  position: fixed;
+  align-items : center;
+  width : 100%;
+  
+}
+.nav > h2{
+  margin :0;
+}
+.text{
+  padding: 10px;
+}
+form{
+
+  padding: 70px 10px 10px;
+  display : grid;
+  background-color:lightblue;
+}
+button{
+   padding:10px;
+  font-size:18px;
+  
+
+
+}
+input#post-title , textarea#post-body{
+  margin-bottom:10px;
+}
